@@ -35,12 +35,6 @@ function GetDireccion(){
 
 }
     
-//https://maps.googleapis.com/maps/api/place/textsearch/json?query=Cra%2043A%2031%20159&key=AIzaSyBHIJBKozSUI2TPhn2wKBhqLNqeJVEttiU 
-
-//https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Museum%20of%20Contemporary%20Art%20Australia&inputtype=textquery&fields=photos,formatted_address,name,rating,opening_hours,geometry&key=AIzaSyDvNr5737Fz1dOK8f_Sf0jZH8UeCmUnPEA
-    
-                   
-    
 function iniciarMap(lat, lng){
     var coord = {lat:6.1440983 ,lng: -75.6079558};
     var map = new google.maps.Map(document.getElementById('map'),{
