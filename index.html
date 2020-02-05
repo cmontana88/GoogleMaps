@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Maps</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	</hr>
+	<label for="name">Direccion:</label>
+	<input type="text" id="direccion" name="direccion" >
+	<button type="button" onclick="GetDireccion()" > Buscar Direccion </button>
+	</hr>
+	<div id="map"></div>
+	<script src="script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHIJBKozSUI2TPhn2wKBhqLNqeJVEttiU&callback=iniciarMap&libraries=places"></script>
+</body>
+</html>
